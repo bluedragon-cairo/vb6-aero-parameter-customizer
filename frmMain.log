@@ -1,0 +1,73 @@
+65 행: Slider12 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+83 행: Slider11 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+101 행: tkAfterGlowBalance 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+121 행: tkColorBalance 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+142 행: tkColorAlpha 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+154 행: tkColorHue 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+166 행: tkColorSaturation 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+178 행: tkColorBrightness 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+244 행: Slider8 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+256 행: Slider4 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+268 행: Slider5 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+280 행: Slider6 컨트롤의 ComctlLib.Slider 클래스는 로드한 컨트롤 클래스가 아닙니다.
+338 행: tbTabStrip 컨트롤의 ComctlLib.TabStrip 클래스는 로드한 컨트롤 클래스가 아닙니다.
+71 행: Slider12의 _ExtentX 속성 이름이 잘못되었습니다. 
+72 행: Slider12의 _ExtentY 속성 이름이 잘못되었습니다. 
+73 행: Slider12의 _Version 속성 이름이 잘못되었습니다. 
+89 행: Slider11의 _ExtentX 속성 이름이 잘못되었습니다. 
+90 행: Slider11의 _ExtentY 속성 이름이 잘못되었습니다. 
+91 행: Slider11의 _Version 속성 이름이 잘못되었습니다. 
+107 행: tkAfterGlowBalance의 _ExtentX 속성 이름이 잘못되었습니다. 
+108 행: tkAfterGlowBalance의 _ExtentY 속성 이름이 잘못되었습니다. 
+109 행: tkAfterGlowBalance의 _Version 속성 이름이 잘못되었습니다. 
+110 행: tkAfterGlowBalance의 Max 속성 이름이 잘못되었습니다. 
+111 행: tkAfterGlowBalance의 TickStyle 속성 이름이 잘못되었습니다. 
+127 행: tkColorBalance의 _ExtentX 속성 이름이 잘못되었습니다. 
+128 행: tkColorBalance의 _ExtentY 속성 이름이 잘못되었습니다. 
+129 행: tkColorBalance의 _Version 속성 이름이 잘못되었습니다. 
+130 행: tkColorBalance의 Max 속성 이름이 잘못되었습니다. 
+131 행: tkColorBalance의 TickStyle 속성 이름이 잘못되었습니다. 
+148 행: tkColorAlpha의 _ExtentX 속성 이름이 잘못되었습니다. 
+149 행: tkColorAlpha의 _ExtentY 속성 이름이 잘못되었습니다. 
+150 행: tkColorAlpha의 _Version 속성 이름이 잘못되었습니다. 
+151 행: tkColorAlpha의 Max 속성 이름이 잘못되었습니다. 
+152 행: tkColorAlpha의 TickFrequency 속성 이름이 잘못되었습니다. 
+160 행: tkColorHue의 _ExtentX 속성 이름이 잘못되었습니다. 
+161 행: tkColorHue의 _ExtentY 속성 이름이 잘못되었습니다. 
+162 행: tkColorHue의 _Version 속성 이름이 잘못되었습니다. 
+163 행: tkColorHue의 Max 속성 이름이 잘못되었습니다. 
+164 행: tkColorHue의 TickFrequency 속성 이름이 잘못되었습니다. 
+172 행: tkColorSaturation의 _ExtentX 속성 이름이 잘못되었습니다. 
+173 행: tkColorSaturation의 _ExtentY 속성 이름이 잘못되었습니다. 
+174 행: tkColorSaturation의 _Version 속성 이름이 잘못되었습니다. 
+175 행: tkColorSaturation의 Max 속성 이름이 잘못되었습니다. 
+176 행: tkColorSaturation의 TickFrequency 속성 이름이 잘못되었습니다. 
+184 행: tkColorBrightness의 _ExtentX 속성 이름이 잘못되었습니다. 
+185 행: tkColorBrightness의 _ExtentY 속성 이름이 잘못되었습니다. 
+186 행: tkColorBrightness의 _Version 속성 이름이 잘못되었습니다. 
+187 행: tkColorBrightness의 Max 속성 이름이 잘못되었습니다. 
+188 행: tkColorBrightness의 TickFrequency 속성 이름이 잘못되었습니다. 
+250 행: Slider8의 _ExtentX 속성 이름이 잘못되었습니다. 
+251 행: Slider8의 _ExtentY 속성 이름이 잘못되었습니다. 
+252 행: Slider8의 _Version 속성 이름이 잘못되었습니다. 
+253 행: Slider8의 Max 속성 이름이 잘못되었습니다. 
+254 행: Slider8의 TickFrequency 속성 이름이 잘못되었습니다. 
+262 행: Slider4의 _ExtentX 속성 이름이 잘못되었습니다. 
+263 행: Slider4의 _ExtentY 속성 이름이 잘못되었습니다. 
+264 행: Slider4의 _Version 속성 이름이 잘못되었습니다. 
+265 행: Slider4의 Max 속성 이름이 잘못되었습니다. 
+266 행: Slider4의 TickFrequency 속성 이름이 잘못되었습니다. 
+274 행: Slider5의 _ExtentX 속성 이름이 잘못되었습니다. 
+275 행: Slider5의 _ExtentY 속성 이름이 잘못되었습니다. 
+276 행: Slider5의 _Version 속성 이름이 잘못되었습니다. 
+277 행: Slider5의 Max 속성 이름이 잘못되었습니다. 
+278 행: Slider5의 TickFrequency 속성 이름이 잘못되었습니다. 
+286 행: Slider6의 _ExtentX 속성 이름이 잘못되었습니다. 
+287 행: Slider6의 _ExtentY 속성 이름이 잘못되었습니다. 
+288 행: Slider6의 _Version 속성 이름이 잘못되었습니다. 
+289 행: Slider6의 Max 속성 이름이 잘못되었습니다. 
+290 행: Slider6의 TickFrequency 속성 이름이 잘못되었습니다. 
+344 행: tbTabStrip의 _ExtentX 속성 이름이 잘못되었습니다. 
+345 행: tbTabStrip의 _ExtentY 속성 이름이 잘못되었습니다. 
+346 행: tbTabStrip의 _Version 속성 이름이 잘못되었습니다. 
+361 행: tbTabStrip의 Tabs 속성 이름이 잘못되었습니다. 
