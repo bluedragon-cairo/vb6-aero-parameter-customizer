@@ -1,22 +1,35 @@
 Attribute VB_Name = "Util"
-Declare Function GetVersionEx Lib "kernel32" Alias "GetVersionExA" (lpVersionInformation As OSVERSIONINFO) As Long
+Declare Function DwmEnableComposition Lib "dwmapi.dll" (ByVal uCompositionAction As Long) As Long
+Declare Function GetVersionEx Lib "kernel32.dll" Alias "GetVersionExA" (lpVersionInformation As OSVERSIONINFO) As Long
 Declare Function DwmExtendFrameIntoClientArea Lib "dwmapi.dll" (ByVal hWnd As Long, Margin As MARGINS) As Long
 Declare Function DwmIsCompositionEnabled Lib "dwmapi.dll" (ByRef pfEnabled As Long) As Long
 Declare Sub DwmGetColorizationParameters Lib "dwmapi.dll" Alias "#127" (ByRef Parameters As DWM_COLORIZATION_PARAMS)
 Declare Sub DwmSetColorizationParameters Lib "dwmapi.dll" Alias "#131" (ByRef Parameters As DWM_COLORIZATION_PARAMS, ByVal BoolArg As Boolean)
+Declare Function SetLayeredWindowAttributes Lib "user32.dll" (ByVal hWnd As Long, ByVal crKey As Long, ByVal bAlpha As Byte, ByVal dwFlags As Long) As Long
+Declare Function SendMessage Lib "user32.dll" Alias "SendMessageW" (ByVal hWnd As Long, ByVal uMsg As Long, ByVal wParam As Long, ByVal lParam As Long) As Long
 Const WM_APP As Long = 32768
 Const WM_DWMCOMPOSITIONCHANGED As Long = &H31E
-Private Const GWL_WNDPROC = (-4)
+Const DWM_EC_DISABLECOMPOSITION As Long = 0
+Const DWM_EC_ENABLECOMPOSITION As Long = 1
+Const GWL_WNDPROC = (-4)
+Const GWL_EXSTYLE As Long = (-20&)
+Const WS_EX_LAYERED As Long = &H80000
+Const LWA_COLORKEY As Long = &H1
+Const WM_PAINT As Long = &HF
+Const WM_PRINTCLIENT As Long = &H318
 Private procOld As Long
 Private DWMhWnd As Long
 Private DWMForm As Form
 
-Declare Function CallWindowProc Lib "USER32.DLL" Alias "CallWindowProcA" _
+Declare Function CallWindowProc Lib "user32.dll" Alias "CallWindowProcA" _
     (ByVal lpPrevWndFunc As Long, ByVal hWnd As Long, ByVal uMsg As Long, _
     ByVal wParam As Long, ByVal lParam As Long) As Long
 
-Declare Function SetWindowLong Lib "USER32.DLL" Alias "SetWindowLongA" _
+Declare Function SetWindowLong Lib "user32.dll" Alias "SetWindowLongA" _
     (ByVal hWnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
+
+Declare Function GetWindowLong Lib "user32.dll" Alias "GetWindowLongA" _
+    (ByVal hWnd As Long, ByVal nIndex As Long) As Long
 
 Declare Function ColorRGBToHLS Lib "shlwapi.dll" ( _
     ByVal clrRGB As Long, _
@@ -148,3 +161,10 @@ Public Function GetBuild() As Long
         GetBuild = 0#
     End If
 End Function
+
+Sub SendKeys(text As Variant, Optional wait As Boolean = False)
+   Dim WshShell As Object
+   Set WshShell = CreateObject("wscript.shell")
+   WshShell.SendKeys CStr(text), wait
+   Set WshShell = Nothing
+End Sub
